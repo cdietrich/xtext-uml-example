@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.xtext.example.umldsl/src-gen" editDirectory="/org.xtext.example.umldsl.edit/src"
+    editorDirectory="/org.xtext.example.umldsl.editor/src" modelPluginID="org.xtext.example.umldsl"
+    forceOverwrite="true" modelName="UmlDsl" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="org.xtext.example.umldsl.edit"
+    editorPluginID="org.xtext.example.umldsl.editor" runtimeVersion="2.10" usedGenPackages="platform:/plugin/org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore platform:/resource/org.eclipse.uml2.uml/model/UML.genmodel#//uml">
+  <genPackages prefix="UmlDsl" basePackage="org.xtext.example.umldsl" disposableProviderFactory="true"
+      fileExtensions="umldsl" ecorePackage="UmlDsl.ecore#/">
+    <genClasses ecoreClass="UmlDsl.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference UmlDsl.ecore#//Model/elements"/>
+    </genClasses>
+    <genClasses ecoreClass="UmlDsl.ecore#//Element">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute UmlDsl.ecore#//Element/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference UmlDsl.ecore#//Element/ref"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Uml
+Bundle-SymbolicName: org.eclipse.xtext.uml
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.uml2.uml;bundle-version="5.0.2",
+ org.eclipse.xtext;bundle-version="2.8.3"
+Export-Package: org.eclipse.xtext.uml
